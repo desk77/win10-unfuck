@@ -3,6 +3,8 @@ Expanded to remove *all* 'Modern/Metro' apps.
 
 Paste all at once into Powershell, or just the ones you want to remove:
 
+Get-AppxPackage -AllUsers | Select Name, PackageFullName
+
 Get-AppxPackage *3d* | Remove-AppxPackage
 Get-AppxPackage *alarms* | Remove-AppxPackage
 Get-AppxPackage *bing* | Remove-AppxPackage
@@ -19,3 +21,5 @@ Get-AppxPackage *soundrec* | Remove-AppxPackage
 Get-AppxPackage *store* | Remove-AppxPackage
 Get-AppxPackage *xbox* | Remove-AppxPackage
 Get-AppxPackage *zune* | Remove-AppxPackage
+Get-AppxPackage *office* | Remove-AppxPackage
+Get-AppxPackage *skype* | Remove-AppxPackage
