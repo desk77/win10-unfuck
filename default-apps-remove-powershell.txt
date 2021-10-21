@@ -24,3 +24,4 @@ Get-AppxPackage *zune* | Remove-AppxPackage
 Get-AppxPackage *office* | Remove-AppxPackage
 Get-AppxPackage *skype* | Remove-AppxPackage
 Get-AppxPackage *paint* | Remove-AppxPackage
+Get-AppxPackage *getstarted* | Remove-AppxPackage
